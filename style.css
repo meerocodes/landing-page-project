@@ -1,0 +1,26 @@
+body {
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 25px;
+background-color: #1f2937;
+color: white;
+font-weight: 800;
+padding: 8px 130px;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    gap: 7px;
+    font: white;
+    list-style-type: none;
+    text-decoration: none;
+}
