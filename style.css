@@ -44,6 +44,7 @@ ul {
     padding: 100px 130px;
     background-color: #1f2937;
     max-width: 500px;
+    gap: 10px;
 
 }
 
@@ -155,6 +156,7 @@ img  {
     width: 500px;
     justify-content: flex-end;
     font-weight: 700;
+    font-size: 28px;
     
 }
 
@@ -164,10 +166,9 @@ img  {
     background-color: #2563eb;
     padding: 50px 100px;
     justify-content: space-between;
-    border-radius: 8px;
-  
-    
+    border-radius: 8px;     
 }
+
 .miniheader {
     display: flex;
     flex-direction: column;
