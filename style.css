@@ -41,10 +41,12 @@ ul {
 .incontainer { 
     display: flex;
     flex-direction: column;
-    padding: 100px 130px;
+    padding: 100px 100px;
+    padding-right: 15px;
     background-color: #1f2937;
     max-width: 500px;
     gap: 10px;
+    
 
 }
 
@@ -81,7 +83,10 @@ ul {
     gap: 30px;
     justify-content: center;
     align-content: center;
-    height: 250px;
+   max-height: 850px;
+   min-height: 300px;
+    padding: 0px 20px;
+    flex-wrap: wrap;
  
 }
 
@@ -92,6 +97,8 @@ ul {
     padding: 100px 300px;
     justify-content: center;
     align-items: center;
+    max-width: 1500px;
+    max-height: 850px;
     
     
 }
@@ -116,7 +123,7 @@ img[src*="https://lh3.googleusercontent.com/Jnq8nOVS8zkEt28dpSUNWYJ9WGpFEhMvt2AQ
 
 width: 390px;
 height: 390px;
-padding: 0px 30px;
+padding: 0px 0px;
 
 }
 .text {
@@ -144,10 +151,14 @@ img  {
 .quote {
     display: flex;
     flex-direction: column;
-    width: 700px;
     justify-content: center;
     font-style: italic;
     font-size: 36px;
+    padding: 0px 40px;
+  
+    width: 500px;
+    max-height: 850px;
+   
     
 }
 
