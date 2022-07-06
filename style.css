@@ -5,21 +5,34 @@ margin: 0;
 }
 
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-font-size: 25px;
-background-color: #1f2937;
-color: white;
-font-weight: 800;
-padding: 8px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    background-color: #1f2937;
+    color: white;
+    font-weight: 800;
+    padding: 8px 130px;
+}
+
+p {
+    color: lightgray;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
     display: flex;
     font-size: 18px;
     font-weight: 300;
-    gap: 7px;
+    gap: 19px;
     font: white;
     list-style-type: none;
     text-decoration: none;
@@ -34,27 +47,52 @@ ul {
 
 }
 
+.info {
+
+}
 .container1 { 
     display: flex;
     background-color: #1f2937;
     flex: 1;
+    justify-content: space-between;
     
 }
 
-.signup {
+.signup , .signup2 {
     border-radius: 8px;
-    border: none;
+    border: 2px 2px white;
     background-color: #2563eb;
     color: white;
     font-size: 15px;
     padding: 8px 12px;
     text-align: center;
     width: 100px;
+    height: 35px;
+   
+  
+    border-color: white;
+}
+.signup2 {
+    align-self: center;
 }
 .container2  {
     display: flex;
-    gap: 100px;
+    gap: 30px;
     justify-content: center;
+    align-content: center;
+    height: 250px;
+ 
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5e7eb;
+    padding: 100px 300px;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 .title {
@@ -62,6 +100,7 @@ ul {
     justify-content: center;
     align-content: center;
     font-size: 30px;
+    padding: 30px 30px;
 }
 
 .mywebsite {
@@ -75,7 +114,67 @@ ul {
 img[src*="https://lh3.googleusercontent.com/Jnq8nOVS8zkEt28dpSUNWYJ9WGpFEhMvt2AQ2zDfy5XHsSW6CvLefnV4nBEqp_m-ijO7neyCJqAvkxzA4v3w2EoTJq31Y3JmtDCh0w=s0"] {
 
 width: 390px;
-height: auto;
-margin-left: auto;
+height: 390px;
+padding: 0px 30px;
 
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+img  {
+
+    width: 150px;
+    height: auto;
+}
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+  
+}
+
+.call2action {
+    margin: 50px 100px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    font-style: italic;
+    font-size: 36px;
+    
+}
+
+.signature {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    font-weight: 700;
+    
+}
+
+.call2action {
+    display: flex;
+    margin: 100px 120px;
+    background-color: #2563eb;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 8px;
+  
+    
+}
+.miniheader {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    
+}
+p {
+    margin: 2px;
 }
